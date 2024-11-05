@@ -1,0 +1,17 @@
+[package]
+name = "nstoolkit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes = "0.8"
+anyhow = "1.0"
+argp = "0.3"
+ctr = { version = "0.9", features = ["std"] }
+dirs = "5.0"
+ecb = "0.1"
+hex = "0.4"
+rsa = { version = "0.9", features = ["sha2"] }
+sha2 = "0.10"
+xts-mode = "0.5"
+zerocopy = { version = "0.8", features = ["alloc", "derive"] }
